@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Passenger Counter App</title>
+</head>
+<body>
+    <p id="title">Passenger Counter App<p>
+    <div class="container">
+        <h1>People Entered:</h1>
+        <h2 id="count-element">0</h2>
+        <div class="container-buttons">
+            <button id="increment-btn" onClick="incrementCount()">INCREMENT COUNT</button>
+            <button id="save-btn" onClick="saveCount()">SAVE COUNT</button>
+        </div>  
+        <p id="save-element">Previous entries: </p>
+        <button id="clear-btn" onClick="clearEntries()">CLEAR ENTRIES</button>
+    </div>
+    <footer>
+        <p id="footer-text">Made by Kenai Epps as part of Scrimba FrontEnd Career Path Module </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
